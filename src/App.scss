@@ -1,0 +1,60 @@
+html,
+body {
+  * {
+    margin: 0;
+  }
+  background-color: #eee;
+}
+.App {
+  text-align: center;
+  .main-container {
+    form {
+      padding-top: 5%;
+      input {
+        width: 60%;
+      }
+      button {
+        width: 19%;
+        margin-left: 1%;
+      }
+    }
+    div:nth-child(2) {
+      ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+        margin-top: 2%;
+        li {
+          background-color: #fff;
+          max-width: 80%;
+          margin: auto;
+          padding: 10px;
+          margin-top: 10px;
+          text-align: left;
+          overflow-wrap: break-word;
+          line-height: 1.55;
+          div {
+            display: inline;
+            float: right;
+            span {
+              display: inline-block;
+              img {
+                width: 15px;
+                height: 15px;
+                background-color: lime;
+                padding: 5px;
+              }
+            }
+            span:first-child {
+              margin-right: 5px;
+            }
+            span:nth-child(2) {
+              img {
+                background-color: red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
